@@ -1,0 +1,44 @@
+#search {
+  display: block;
+  margin: 0 auto;
+  padding: 13px;
+  border-radius: 20px;
+  background: #80808040;
+  width: 20%;
+  font-size: 1.2rem;
+
+  &::placeholder {
+    text-align: center;
+  }
+}
+
+.meal-container {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: baseline;
+
+  .card-meals {
+    flex: 1 0 25%;
+    border: 0.5px solid #e0e0fb;
+    margin: 20px;
+    padding: 10px;
+    border-radius: 15px;
+    background: #e0e0fb;
+  }
+
+  img {
+    width: 100%;
+    margin: 10px 0;
+    border-radius: 15px;
+    object-fit: cover;
+    box-shadow: 0 1px 10px rgba(0, 0, 0, 0.304);
+  }
+  h3 {
+    font-size: 1.2rem;
+    color: #ffa6a6;
+  }
+  p {
+    width: 90%;
+    text-align: justify;
+  }
+}
